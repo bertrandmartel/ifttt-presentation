@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "d3": "^4.10.2",
+    "gh-pages": "^1.0.0",
     "normalize.css": "^7.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -11,6 +12,8 @@
     "spectacle": "^2.2.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
