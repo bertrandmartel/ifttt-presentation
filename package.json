@@ -2,6 +2,7 @@
   "name": "ifttt-presentation",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://bertrandmartel.github.io/ifttt-presentation",
   "dependencies": {
     "d3": "^4.10.2",
     "gh-pages": "^1.0.0",
